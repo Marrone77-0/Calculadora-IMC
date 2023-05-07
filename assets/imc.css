@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    outline: none;
+    border-style: none;
+    
+   
+}
+
+
+body {
+   
+    font-family: 'Noto Sans', sans-serif;
+    
+ 
+
+}
+
+
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+  
+    background-color: #18181b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 15px;
+    
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.control-form   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 25px;
+    
+    background-color:  #262626;
+    border-radius: 7px;
+    width: 340px;
+    height: 350px;
+    gap: 1rem;
+    box-sizing: border-box;
+    
+    
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+    font-weight: 700;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::placeholder{
+    
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    
+    
+    text-align: start;
+    
+}
+
+
+.form-inputs > h1{
+    
+    margin-bottom: 2rem;
+    
+    color: #f8fafc;
+    position: relative;
+}
+
+h1::after{
+    margin-top: 20px;
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color:   #16a34a;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.form-inputs input {
+    margin-bottom: 7px;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding-left:  15px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    position: relative;
+    color: #f8fafc;
+    background-color: #3f3f46 ;
+    
+    
+    
+   
+    
+}
+
+.form-inputs label {
+    margin-bottom: 7px;
+    color: #F0FFFF;
+
+}
+
+
+
+#control-botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+button{
+    text-transform: uppercase;
+    border: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    flex: 1;
+    background-color:  #16a34a;
+    border-radius: 10px;
+    color: #f8fafc;
+    
+    outline: none;
+    font-weight: 800;
+    
+    
+    
+}
+
+
+#result-imc {
+   
+
+    width: 350px;
+    height: 200px;
+    background-color: #262626;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+#result-imc > p:nth-child(1) {
+    margin-top: 15px;
+    color: #F5F5F5;
+    font-weight: 500;
+    font-size: 1.4rem;
+
+}
+
+#span-result-imc{
+    font-weight: 600;
+  
+    font-size: 1.4rem;
+    
+}
+
+#result-imc p:nth-child(2){
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+
+#status-imc{
+    
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+
+#weight-ideal {
+    margin-top: 20px;
+    color: #F5F5F5;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+}
+
+#weight-ideal > span{
+    font-weight: 700;
+    color: #C2B280;
+}
+
+@media(max-width: 450px) {
+    .control-form{
+        width: 250px;
+        height: 330px;
+        
+        
+        
+    }
+
+    .form-inputs{
+        width: 230px;
+        display: flex;
+        padding: 10px 10px;
+     
+        
+        
+        
+        
+        
+        
+
+        
+    }
+
+    .form-inputs > h1{
+        margin-bottom: 2rem;
+        font-size: 24px;
+       
+        position: relative;
+    }
+
+    .form-inputs > input{
+        margin-bottom: 7px;
+        height: 40px;
+        width: 100%;
+        box-sizing: border-box;
+        font-weight: 700;
+        font-size: 0.8rem;
+        position: relative;
+    }
+
+    .form-inputs label {
+        font-size: 14px;
+    
+    }
+
+    ::placeholder{
+    
+        font-size: 12px;
+        
+    }
+
+    
+
+    button{
+        font-size: 12px;
+        
+        padding: 1rem 1rem;
+       
+    }
+
+    #result-imc {
+        width: 240px;
+        height: 170px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #result-imc p:nth-child(1){
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+      
+    }
+
+    #span-result-imc{
+        font-weight: 600;
+      
+        font-size: 17px;
+     }
+    
+    #result-imc p:nth-child(2){
+        
+        font-size: 15px;
+    }
+
+    #status-imc{
+    
+        
+        font-size: 15px;
+    }
+
+    
+    #weight-ideal {
+        font-size: 13.9px;
+    }
+
+    
+
+    
+} 
+
+

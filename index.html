@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/imc.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+   <div class="container">
+        
+       
+        <form id="formulario">
+            
+            <div class="control-form">
+            
+                <div class="form-inputs">
+                    <h1>Calculadora - IMC</h1>
+                    <label for="altura">Altura (cm):</label>
+                    <input type="number" id="altura" step="0.01" placeholder="Exemplo: 1,72" inputmode="numeric">
+                    <label for="peso">Peso (kg):</label>
+                    <input  type="number" id="peso" step="0.01" placeholder="Exempo: 60,3" inputmode="numeric">
+                    <div class="botoes">
+                        <div id="control-botoes">
+                            <button id="calcular">Calcular</button>
+                            <button id="limpar">Limpar</button>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </form>
+        
+            <div id="modal-imc" style="display: none;">
+                <div id="result-imc">
+                
+                    <p>Seu IMC é de: <span id="span-result-imc"></span></p>
+                    <p>Situação atual: <span id="status-imc"></span></p>
+                    
+                    <p id="weight-ideal">Peso ideal entre: <span id="min-weight"></span> <span>e</span> <span id="max-weight"></span> <span>Kg</span></p>
+                    
+                    
+                </div>
+            </div>
+
+            
+
+</div>
+        
+            
+
+
+
+
+    <script src="assets/index.js"></script>    
+</body>
+</html>
