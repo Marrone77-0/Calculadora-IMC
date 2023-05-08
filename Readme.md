@@ -1,6 +1,8 @@
 <h2> 🚩 Calculadora IMC</h2>
 
-<p> Esta calculadora faz o calculo do IMC e da faixa de peso ideal conforme altura.</p>
+<p> Esta calculadora faz o calculo do IMC e da faixa de peso ideal conforme altura. <br>
+As informações são mostradas num Modal que é ativado quando o usuario aperta no botão "calcular". <br> 
+E é desativado quando o usuario aperta no botão "limpar".</p>
 
 <h3> 💻 Tecnologias:</h3>
 
@@ -8,9 +10,16 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-Demonstração Desktop: 
+<p> Demonstração Desktop: </p>
+
+
+https://user-images.githubusercontent.com/115358694/236709227-604d49a4-263b-4fdf-b10e-e44f72aa0750.mp4
 
 
 
-https://user-images.githubusercontent.com/115358694/236709056-bf1e03ed-1739-4840-b0c8-61120d0821fd.mp4
+<p> Versão Mobile: </p>
 
+
+
+
+![Mobile-IMC](https://user-images.githubusercontent.com/115358694/236709239-c3de0749-765a-465b-bcb0-6844eb903b53.png)
