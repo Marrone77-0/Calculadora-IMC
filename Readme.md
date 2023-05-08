@@ -1,8 +1,8 @@
 <h2> 🚩 Calculadora IMC</h2>
 <ul>
 <li> Esta calculadora faz o calculo do IMC e da faixa de peso ideal conforme altura. </li>
-<li> As informações são mostradas num Modal que é ativado quando o usuario aperta no botão "calcular". <li>
-<li> E é desativado quando o usuario aperta no botão "limpar". </li>
+<li> O botão "calcular" realiza os calculos e ativa o Modal. </li>
+<li> O botão "limpar" limpa os campos inputs e desativa o Modal. </li>
 </ul>
 
 <h3> 💻 Tecnologias:</h3>
